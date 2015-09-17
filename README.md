@@ -1,2 +1,0 @@
-# mandala
-mi primer repositorio
