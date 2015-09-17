@@ -110,7 +110,6 @@
                             </tbody>
                             </table>
                         </div>
-                            
                     </div>
                     <div id="tab_5_2" class="tab-pane">
                         <form class="form" role="form">
@@ -187,7 +186,6 @@
                             </tbody>
                             </table>
                         </div>
-                            
                     </div>
                     <div id="tab_5_3" class="tab-pane">
                         <form class="form" role="form">
@@ -286,7 +284,6 @@
                             </tbody>
                             </table>
                         </div>
-                            
                     </div>
                     <div id="tab_5_4" class="tab-pane">
                         <form class="form" role="form">
@@ -363,7 +360,6 @@
                             </tbody>
                             </table>
                         </div>
-                            
                     </div>
                     <div id="tab_5_5" class="tab-pane">
                         <form class="form" role="form">
@@ -440,9 +436,8 @@
                             </tbody>
                             </table>
                         </div>
-                            
                     </div>
-                    <div id="tab_5_6" class="tab-pane active">
+                    <div id="tab_5_6" class="tab-pane">
                         <form class="form" role="form">
                                 <div class="form-group" style="float: left;">
                                         <label class="sr-only" for="exampleInputPassword2">Fecha</label>
@@ -517,7 +512,6 @@
                             </tbody>
                             </table>
                         </div>
-                            
                     </div>
                     <div id="tab_5_7" class="tab-pane">
                         <form class="form" role="form">
@@ -594,7 +588,6 @@
                             </tbody>
                             </table>
                         </div>
-                            
                     </div>
                 </div>
             </div>
