@@ -27,21 +27,22 @@ class Cxc extends CI_Controller {
 			$this->load->view('admin/login');	
 		}
 	}
-        function efectivo(){
+        
+    function efectivo(){
 		if($this->session->userdata('is_logged_in')){
 			$data['titulo'] = "Efectivo";
 			$data['calendario'] = false;
-			$this->load->view('include/head');
-			$this->load->view('include/header',$data);
-			$this->load->view('admin/html_cxc_efectivo');
-			$this->load->view('admin/librerias');
-			$this->load->view('admin/cxc');
-			$this->load->view('include/footer');
+			$this->load->view('Jincludes/head');
+			$this->load->view('Jincludes/header',$data);
+			$this->load->view('admin/Efectivo/html_cxc_efectivo');
+			$this->load->view('Jincludes/footer');
+			$this->load->view('Jincludes/librerias');
 		} else {
 			$this->load->view('admin/login');	
 		}
 	}
-        function facturas(){
+     
+    function facturas(){
 		if($this->session->userdata('is_logged_in')){
 			$data['titulo'] = "Facturas";
 			$data['calendario'] = false;
